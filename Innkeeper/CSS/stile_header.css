@@ -1,0 +1,55 @@
+* {margin: 0;}
+
+/* sidenav */
+.header_sidenav {
+  height: 100%; 
+  width: 0; /* 0 width - cambia con JavaScript */
+  position: fixed;
+  z-index: 1;
+  top: 56px;
+  right: 0;
+  /*background-color: rgba(52, 58, 64,0.9);  /*Black*/
+  background-color: rgba(28, 191, 150,0.8);  /*opzione2*/
+  /*background-color: rgba(25, 102, 89,0.9);  /*opzione3*/
+  overflow-x: hidden; 
+  padding-top: 100px; 
+  transition: 0.5s;
+}
+
+.header_sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.header_sidenav a:hover {
+  color: #196659;
+}
+
+.header_sidenav .header_closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.smartScreen{
+    display: none;
+}
+
+.smart{
+    display: none;
+}
+
+
+/*
+Smartphone
+*/
+@media screen and (max-width: 767px) {
+    .header_sidenav {padding-top: 50px;}
+    .smartScreen{display: initial;}
+}

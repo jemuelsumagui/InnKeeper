@@ -1,0 +1,29 @@
+.container {
+  border: 0px solid #73AD21;
+  padding: 16px;
+  width: 280px;
+  margin-top: 70px;
+  display: block;
+
+  
+}
+
+input{
+  width: 280px;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.bottone {
+  background-color: #2176ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+}   

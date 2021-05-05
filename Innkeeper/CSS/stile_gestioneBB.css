@@ -1,0 +1,44 @@
+.txtStruttura{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.txtTitle{
+    font-weight: 600;
+    font-size: 2em;
+    color: #f79824;
+}
+
+.stileLabel{
+    font-weight: 500;
+    color: #f79824;
+}
+
+.stileBtn{
+    color: #196659; 
+    background: white;
+    border: 1px solid #196659;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.stileBtn:hover {
+  background-color: #196659;
+  color: white;
+}
+
+
+.stileBtnPrenotazione{
+    color: #B51212; 
+    background: white;
+    border: 1px solid #B51212;
+    padding: 2px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.stileBtnPrenotazione:hover {
+  background-color: #B51212;
+  color: white;
+}

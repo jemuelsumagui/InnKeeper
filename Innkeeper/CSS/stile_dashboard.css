@@ -1,0 +1,38 @@
+/*
+Dashboard
+*/
+.cards_left { 
+    max-width: 50%;
+    margin: 30px;
+    border: 1px solid red;
+    float: left;
+}
+.cards_left h3 {
+    margin: 10px;
+}
+.cards_left a {
+    margin: 10px;
+}
+.cards_right { 
+    max-width: 50%;
+    margin: 30px;
+    border: 1px solid red;
+    float: right;
+}
+.cards_right h3 {
+    margin: 5px;
+}
+.card{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    float: left;
+}
+.card: hover{
+    background-color: black;
+}
+.card_calendar{
+    font-size: 100px;
+    color: #2176ff;
+}

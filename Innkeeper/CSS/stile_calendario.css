@@ -1,0 +1,162 @@
+/*tengo ferma la prima colonna del calendario*/
+
+th:first-child,
+td:first-child {
+    position: sticky;
+    left: 0px;
+    min-width: 10em;
+}
+
+td:first-child {
+    background-color: #FFFFFF;
+}
+
+/*classe per liste a due colonne*/
+.list2 {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 2px 0 0 0;
+    margin: 0px;
+
+}
+
+.listItem {
+    border: 1px solid #1cbf96;
+    border-radius: 4px;
+    font-size: 1.1em;
+    margin: 2px;
+    padding: 2px 2px 2px 5px;
+    overflow: hidden;
+    /* fix for Firefox */
+    /*column break*/
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+}
+
+/*stile calendario*/
+
+.txtLabel {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.tb200 {
+    color: black;
+    font-weight: 200;
+    background-color: red;
+}
+
+.tb500 {
+    color: black;
+    font-weight: 500;
+    text-align: right;
+}
+
+.stileBtn {
+    color: #1cbf96;
+    background: white;
+    border: 1px solid #1cbf96;
+    padding: 9px 28px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+
+.stileBtn:hover {
+    background-color: #1cbf96;
+    color: white;
+}
+
+/*classi stile celle calendario*/
+
+.cellMese {
+    background-color: #EFEFEF;
+}
+
+.cellPrimo {
+
+    color: black;
+    font-weight: 700;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellOggi {
+    background-color: #72E5D2;
+    color: black;
+    font-weight: 700;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    min-width: 5em;
+    /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellSab {
+    color: #B51212;
+    font-weight: 400;
+    background-color: #FFEC99;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellSabPrimo {
+    color: black;
+    font-weight: 700;
+    background-color: #FFEC99;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellDom {
+    color: #B51212;
+    font-weight: 400;
+    background-color: #FFE572;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellDomPrimo {
+    color: black;
+    font-weight: 800;
+    background-color: #FFE572;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}
+
+.cellMezzo {
+    background-color: #FFE572;
+}
+
+.cellGiornoRiferimento {
+    background-color: #CEDBE5;
+}
+
+.cellPartenza {
+    background: linear-gradient(to bottom right, #FFE572 50%, white 51%);
+}
+
+.cellArrivo {
+    background: linear-gradient(to right, white 50%, #FFE572 51%);
+}
+
+.tb400 {
+    color: black;
+    font-weight: 400;
+    min-width: 3.5em;
+    /*celle della stessa larghezza*/
+    max-width: 3.5em;
+    /*min-width: 5em; /*se si vuole numero e giorno sulla stessa riga*/
+}

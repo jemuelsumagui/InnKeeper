@@ -1,0 +1,31 @@
+/* Bordered form */
+form {
+  border: 100px solid #FFFFFF;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 200px;
+  /*border-radius: 50%;*/
+}
+
+/* Add padding to containers */
+.container {  
+  border: 0px solid #73AD21;
+  padding: 16px;
+  width: 280px;
+  margin: 0px auto;
+  display: block;
+  
+}
+
+a {
+    margin: 0 0;
+}
