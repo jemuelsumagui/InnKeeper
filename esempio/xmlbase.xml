@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document>
-<cmd att01="val01" att02="val02">txt cmd</cmd>
-<logins>
-    <login>>Zoe</login>
-    <login>>Emanuele</login>
-    <login>>Riccardo</login>
-</logins>
-</document>
