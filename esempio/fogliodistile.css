@@ -1,0 +1,29 @@
+#elenco_strutture {
+	width: 30%;
+	background-color: beige;
+	float: left;
+}
+
+#elenco_stanze {
+	width: 70%;
+	background-color:#f0ed1a;
+	margin-left: 30%;
+	min-height: 800px;
+	font-size: 18px;
+	padding-top: 0.5em;
+}
+
+#elenco_strutture li {
+}
+
+.element_actions {
+	text-align: right;
+	background-color: azure;
+	padding: 5px 10px 5px 10px;
+}
+
+.element_action {
+	width: 3em;
+	background-color: chartreuse;
+	margin-right: 1em;
+}
